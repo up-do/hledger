@@ -58,6 +58,8 @@ dist-newstyle/
 .stack-work/
 /lsp/
 Setup
+.updo
+updo
 
 # hledger stuff
 old
