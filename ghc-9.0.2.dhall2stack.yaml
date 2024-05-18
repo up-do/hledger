@@ -1,0 +1,28 @@
+user-message: "WARNING: This stack project is generated."
+
+resolver: lts-19.33
+
+# We have 4 packages.
+packages:
+  - ./hledger
+  - ./hledger-lib
+  - ./hledger-ui
+  - ./hledger-web
+
+extra-deps:
+  # Package versions for published packages either not on Stackage or
+  # not matching the version on Stackage for the resolver we use.
+  # These package-version extra dependencies are equivalent to cabal constraints.
+  - ansi-terminal-0.11.4
+  - bimap-0.5.0
+  - brick-2.3.1
+  - fsnotify-0.4.1.0
+  - isomorphism-class-0.1.0.12
+  - safe-0.3.21
+  - text-ansi-0.2.1
+  - text-builder-0.6.7
+  - text-builder-dev-0.3.3.2
+  - text-zipper-0.13
+  - vty-6.2
+  - vty-crossplatform-0.4.0.0
+  - vty-unix-0.2.0.0
