@@ -31,5 +31,6 @@ in  \(pkgs-done : List Text) ->
                         { todo = pkgs-todo, done = pkgs-done }
               )
               pkg-config}
+          ${./stack-snippet-debug.dhall}
           ${../../stack-snippet-nix-comments.dhall}
           ''
