@@ -80,7 +80,6 @@ tools/simplebench
 /examples/[1-9]0*.journal
 *.webmanual.md
 *.m4-e
-stack*.yaml.lock
 bench
 
 # hledger-web stuff
