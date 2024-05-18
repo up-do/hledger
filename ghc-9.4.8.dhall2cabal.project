@@ -1,0 +1,19 @@
+import: ./project-stackage/lts-21.25.config
+
+-- We have 4 packages.
+packages:
+    hledger
+  , hledger-lib
+  , hledger-ui
+  , hledger-web
+
+-- Version equality constraints.
+constraints:
+    brick ==2.3.1
+  , safe ==0.3.21
+  , vty ==6.2
+  , vty-crossplatform ==0.4.0.0
+  , vty-unix ==0.2.0.0
+
+program-options
+  ghc-options: -fhide-source-paths

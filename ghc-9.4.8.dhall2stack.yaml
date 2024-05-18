@@ -1,0 +1,20 @@
+user-message: "WARNING: This stack project is generated."
+
+resolver: lts-21.25
+
+# We have 4 packages.
+packages:
+  - ./hledger
+  - ./hledger-lib
+  - ./hledger-ui
+  - ./hledger-web
+
+extra-deps:
+  # Package versions for published packages either not on Stackage or
+  # not matching the version on Stackage for the resolver we use.
+  # These package-version extra dependencies are equivalent to cabal constraints.
+  - brick-2.3.1
+  - safe-0.3.21
+  - vty-6.2
+  - vty-crossplatform-0.4.0.0
+  - vty-unix-0.2.0.0
