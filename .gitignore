@@ -60,6 +60,8 @@ dist-newstyle/
 Setup
 .updo
 updo
+project-nix
+project-versions.nix
 
 # hledger stuff
 old
