@@ -15,6 +15,7 @@ extra-deps:
   # not matching the version on Stackage for the resolver we use.
   # These package-version extra dependencies are equivalent to cabal constraints.
   - vty-windows-0.2.0.2
+
 nix:
   pure: false
   packages: [perl gmp ncurses zlib]
