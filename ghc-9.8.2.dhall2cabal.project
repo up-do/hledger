@@ -1,0 +1,14 @@
+import: ./project-stackage/nightly-2024-05-18.config
+
+-- We have 4 packages.
+packages:
+    hledger
+  , hledger-lib
+  , hledger-ui
+  , hledger-web
+
+-- Version equality constraints.
+
+
+program-options
+  ghc-options: -fhide-source-paths

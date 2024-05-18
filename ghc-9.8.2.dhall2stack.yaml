@@ -1,0 +1,12 @@
+user-message: "WARNING: This stack project is generated."
+
+resolver: nightly-2024-05-18
+
+# We have 4 packages.
+packages:
+  - ./hledger
+  - ./hledger-lib
+  - ./hledger-ui
+  - ./hledger-web
+
+extra-deps: []
