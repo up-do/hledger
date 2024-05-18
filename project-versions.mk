@@ -8,8 +8,10 @@ STACKAGE_VERSION ?= lts-19.33
 # STACKAGE_UPGRADE ?= lts-20.26
 # GHC_UPGRADE ?= 9.4.8
 # STACKAGE_UPGRADE ?= lts-21.25
-GHC_UPGRADE ?= 9.6.5
-STACKAGE_UPGRADE ?= lts-22.22
+# GHC_UPGRADE ?= 9.6.5
+# STACKAGE_UPGRADE ?= lts-22.22
+GHC_UPGRADE ?= 9.8.2
+STACKAGE_UPGRADE ?= nightly-2024-05-18
 
 # Imports can be relative to the project or relative to importing file.
 # ImportRelative works with cabal-3.10 and is the default.
