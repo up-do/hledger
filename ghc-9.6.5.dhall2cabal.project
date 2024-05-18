@@ -1,0 +1,14 @@
+import: ./project-stackage/lts-22.22.config
+
+-- We have 4 packages.
+packages:
+    hledger
+  , hledger-lib
+  , hledger-ui
+  , hledger-web
+
+-- Version equality constraints.
+
+
+program-options
+  ghc-options: -fhide-source-paths
